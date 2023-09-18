@@ -128,6 +128,7 @@ export default function PageClient({lang}) {
                                 alt={project.name}
                                 width={1440}
                                 height={600}
+                                sizes="(max-width: 1279px) 100vw"
                                 placeholder='blur'
                                 blurDataURL={project.image}
                             />
