@@ -23,11 +23,12 @@ export default function DetailHeader(props) {
             {/*    })}*/}
             {/*</Carousel>*/}
             <div className='max-h-[600px] overflow-hidden flex'>
-                <img
+                <Image
                     className='min-h-full min-w-full w-auto object-cover'
                     src={props.images[0]}
                     alt='image'
                     width={1440}
+                    height={600}
                 />
             </div>
             <Image
