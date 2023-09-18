@@ -19,7 +19,7 @@ export default function PageClient({lang}) {
             '/images/projects/chodovec/main.jpg',
             '/images/projects/d5logistics/main.jpg',
             '/images/projects/westpoint/main.jpg',
-            // '/images/projects/southpoint/main.jpg'
+            '/images/projects/southpoint/main.jpg'
         ]
 
     const projectElements = [{
@@ -88,11 +88,12 @@ export default function PageClient({lang}) {
                             return (<div
                                     className='h-[200px] max-h-[200px] sm:max-h-[400px] sm:h-[400px] md:max-h-[600px] md:h-[600px] flex flex-col items-end justify-end'
                                     key={image}>
-                                    <img
+                                    <Image
                                         className='min-h-full w-auto object-cover'
                                         src={image}
                                         alt=''
                                         width={1440}
+                                        height={600}
                                     />
                                 </div>)
                         })}
