@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	output: 'export',
-	images: { unoptimized: true },
-	trailingSlash: true,
+	// output: 'export',
+	// images: { unoptimized: true },
+	// trailingSlash: true,
 	// exportPathMap: () => ({
 	// 	'/locales/en': `/en`,
 	// 	'/locales/cs': `/cs`,
@@ -12,8 +12,8 @@ const nextConfig = {
 	// 	defaultLocale: 'en-US',
 	// 	localeDetection: false,
 	// },
-	env: {
-		'language': 'en',
-	},
+	// env: {
+	// 	'language': 'en',
+	// },
 }
 module.exports = nextConfig
